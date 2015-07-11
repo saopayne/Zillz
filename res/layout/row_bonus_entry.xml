@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_shadow_base">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/row_bonus_entry_image"
+        android:src="@drawable/ic_bag"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:paddingLeft="@dimen/half_padding"
+        android:layout_gravity="center_vertical"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/half_padding"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/text_view_grey"
+            android:id="@+id/row_bonus_entry_title"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/row_bonus_entry_quantity"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:minLines="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/row_bonus_entry_quantity"
+            android:gravity="right"
+            android:layout_toLeftOf="@+id/row_bonus_entry_equipped"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/default_vertical_margin" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/row_bonus_entry_equipped"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:checked="false"
+            android:clickable="false"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/row_bonus_entry_effect"
+            android:gravity="left"
+            android:layout_below="@+id/row_bonus_entry_title"
+            android:layout_toLeftOf="@+id/row_bonus_entry_quantity"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:minLines="2" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

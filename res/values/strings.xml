@@ -1,0 +1,418 @@
+<resources>
+
+    <string name="app_name">Zillz</string>
+
+    <string name="integer_zero">0</string>
+    <string name="integer_four">4</string>
+
+    <string name="soon_tm">Soon …</string>
+
+    <!-- Home Activity !-->
+    <string name="home_play">Play</string>
+    <string name="home_leaderboard">Leaderboards</string>
+    <string name="home_achievement">Achievements</string>
+    <string name="home_about">About</string>
+    <string name="home_sign_in">Sign in</string>
+    <string name="home_sign_info">Sign in with your Google+ account to boast of your score and achievements with your friends.</string>
+    <string name="home_not_sign_in_leaderboard">Sign in with Google to see the leaderboards.</string>
+    <string name="home_not_sign_in_achievement">Sign in with Google to unlock achievements.</string>
+    <string name="home_sign_out">Sign out</string>
+    <string name="home_sign_out_confirm_dialog_message">Are you sure you wish to sign out?</string>
+    <string name="home_sign_out_success">You’ve successfully signed out.</string>
+    <string name="home_internet_unavailable">Please connect to the Internet.</string>
+    <string name="home_profile">Profile</string>
+    <string name="home_device_not_compatible">Sorry, you device appears to be incompatible with the Game.</string>
+    <string name="home_i_button">i</string>
+    <string name="home_help_button">\?</string>
+    <string name="home_i_button_on_long_press">About</string>
+    <string name="home_help_button_on_long_press">Help</string>
+
+    <!-- in game !-->
+    <string name="in_game_kill_counter">Frag: %1$d</string>
+    <string name="in_game_combo_counter">x %1$d</string>
+    <string name="in_game_score">Score: %1$d</string>
+    <string name="in_game_time">Time: %1$d s</string>
+    <string name="in_game_no_ammo_message">No Ammo</string>
+
+    <!-- Level Chooser Activity !-->
+    <string name="level_chooser">Select a mission</string>
+
+    <!-- Leaderboard Chooser Fragment !-->
+    <string name="leaderboard_chooser_title">Select leaderboard</string>
+    <string name="leaderboard_chooser_title_overall_ranking">Overall Ranking</string>
+    <string name="leaderboard_chooser_title_sprint">Scout First!</string>
+    <string name="leaderboard_chooser_time_limited_level_2_description">60 seconds High Scores.</string>
+    <string name="leaderboard_chooser_title_marathon">Prove your stamina</string>
+    <string name="leaderboard_chooser_title_survival">The Final Battle</string>
+    <string name="leaderboard_chooser_title_death_to_the_king">Death To The King</string>
+    <string name="leaderboard_chooser_title_memorize">Brainteaser</string>
+    <string name="leaderboard_chooser_title_twenty_in_a_row">Everything is an illusion…</string>
+
+    <!-- Game Mode requirements !-->
+    <string name="game_mode_required_message_twenty_in_a_row">Everything is an illusion: the Corporal Rank of the mission \"Scout First\" is required.</string>
+    <string name="game_mode_required_message_marathon">Prove your Stamina: the Corporal Rank of the mission \"Everything is an illusion\" is required.</string>
+    <string name="game_mode_required_message_memorize">Brainteaser: the Corporal Rank of the mission \"Prove your Stamina\" is required.</string>
+    <string name="game_mode_required_message_death_to_the_king">Death to the King: the Corporal Rank of the mission \"Brainteaser\" is required.</string>
+    <string name="game_mode_required_message_survival">The Final Battle: the Corporal Rank of the mission \"Death to the King\" is required.</string>
+
+    <!-- Game Mode titles !-->
+    <string name="game_mode_title_tutorial">Tutorial : Learn how to play this game.</string>
+    <string name="game_mode_title_sprint">Scouts First!</string>
+    <string name="game_mode_title_marathon">Prove your Stamina</string>
+    <string name="game_mode_title_survival">The Final Battle</string>
+    <string name="game_mode_title_death_to_the_king">Death to the King</string>
+    <string name="game_mode_title_twenty_in_a_row">Everything is an illusion…</string>
+    <string name="game_mode_title_memorize">Brainteaser</string>
+
+    <!-- Game Mode rank rules !-->
+    <string name="game_mode_rank_rules_death_to_the_king">Complete the mission in %1$.1f seconds or less.</string>
+    <string name="game_mode_rank_rules_death_to_the_king_deserter">At least, Complete the mission.</string>
+    <string name="game_mode_rank_rules_memorize">Clean the wave %1$d.</string>
+    <string name="game_mode_rank_rules_sprint">Complete the mission with a score of %1$d or higher.</string>
+    <string name="game_mode_rank_rules_sprint_deserter">At least, Complete the mission.</string>
+    <string name="game_mode_rank_rules_marathon">Prove your stamina with a score of %1$d or higher.</string>
+    <string name="game_mode_rank_rules_marathon_deserter">At least, come to the end of the mission to prove your stamina.</string>
+    <string name="game_mode_rank_rules_twenty_in_a_row">Kill 20 baby bats in a row in less than %1$d seconds.</string>
+    <string name="game_mode_rank_rules_twenty_in_a_row_deserter">Kill 20 baby bats in a row.</string>
+    <string name="game_mode_rank_rules_survival">Stay alive long enough to get a score of %1$d or higher.</string>
+    <string name="game_mode_rank_rules_survival_deserter">At least, survive to the mission.</string>
+
+
+    <!-- Game Mode long description !-->
+    <string name="game_mode_description_sprint">
+        Great Batter and his friends have heard that you joined the bats hunter army.
+        Be ready to defeat the first waves of scouts that are heading towards you.
+        \nNo quarter and no mercy!
+    </string>
+    <string name="game_mode_description_twenty_in_a_row">
+        Don’t fall into Great Batter’s trap!
+        These cute little bats have been send in order to distabilize you and play with your emotions,
+        but they are only an illusion! Batter masters the art of disguise,
+        and he won’t hesitate to use it against hunters like you.
+        Kill 20 baby bats in a row in order to show your determination.
+        Miss only one hit, and you will have to restart from the beginning. Be accurate!
+    </string>
+    <string name="game_mode_description_marathon">
+        You are now a serious threat to Great Batter and his sidekicks!
+        A huge wave of bats are heading towards you, and they seem pretty angry.
+        Prepare yourself for a long and exhausting battle.
+        \n\nFor this long fight, you should use a bonus in order to not run out ammunition to quickly!
+    </string>
+    <string name="game_mode_description_survival">
+        Now that you killed the king, bats and his sidekicks have  to nothing lose anymore.
+        Prepare yourself for a last epic fight that can last days and nights!
+        Each target you killed grants you a little more time.
+        Take this opportunity to exterminate a lot of bats once and for all!
+    </string>
+    <string name="game_mode_description_death_to_the_king">
+        No more bats dare challenge you! The king has decided to come in person to defeat you.
+        Find him and kill as quickly as possible before he changes his mind.
+        Be careful, the king never comes alone.
+        Don’t lose time on his sidekicks and become the fastest bat hunter in the West.
+        \n\nAs soon as you are ready, touch the screen to summon the king and his sidekicks.
+        \n\nUnfortunately bonus are unavailable for this mission.</string>
+    <string name="game_mode_description_memorize">
+        Facing your bravery, Great Batter has no choice but changing his strategy!
+        This time, a difficult brainteaser is what awaits you.
+        Take the challenge and show him that a bat hunter must have an handy brain
+        that can memorize several targets at the same time.
+        \n\nYour mission is to memorize a bats list and then try to kill them in the correct order.
+        On each new wave, one more bat is added to the wanted list.</string>
+
+    <!-- Score Activity !-->
+    <string name="score_number_of_bullets_fired">Bullets Fired</string>
+    <string name="score_number_of_targets_killed">Targets Killed</string>
+    <string name="score_max_combo">Max Combo</string>
+    <string name="score_exp_earned">Exp Earned</string>
+    <string name="score_final_score">Final Score</string>
+    <string name="score_lost">lost</string>
+    <string name="score_skip_button">Skip</string>
+    <string name="score_replay_button">Replay</string>
+    <string name="score_home_button">Home</string>
+    <string name="score_share_button">Share</string>
+    <string name="score_share_dialog">How do you want to share?</string>
+    <string name="score_share_subject">Zillz Bat Hunter</string>
+    <string name="score_share_content">I play Zillz(Bat Hunting). Can you beat my score : %1$d
+        ? \n Get it at https://play.google.com/store/apps/details?id=com.tracchis.saopayne.zills \n  
+    </string>
+    <string name="sign_in_message">If you sign in with Google Plus, you will be able to share your
+        score and achievements with other players and friends !
+    </string>
+    <string name="score_loot_title">During the hunt you found</string>
+    <string name="score_loot_default">nothing.</string>
+    <string name="score_title_fragment">Game over</string>
+    <string name="score_title_grade">Rank :</string>
+    <string name="score_title_score">Score :</string>
+    <string name="score_title_details_card">Details </string>
+    <string name="score_congratz_level_up">You have just leveled up.</string>
+    <string name="score_congratz_rank_up">You have just increased your rank.</string>
+    <string name="score_title_congratz_card">Congratulations !</string>
+    <string name="score_current_exp">Exp %1$d/%2$d</string>
+    <string name="score_added_exp">(+ %1$d)</string>
+
+    <!-- About Fragment -->
+    <string name="about_title">Zillz</string>
+    <string name="about_version_detail">version 1.0.1</string>
+    <string name="about_developer_card_title">Developers</string>
+    <string name="about_saopayne_name">Oyewale Ademola Sao</string>
+    <string name="about_timileyin_name">Ogunyemi Timileyin</string>
+    <string name="about_thanks_section">Special thanks to…</string>
+    <string name="about_thanks_gdgoau">GDGOAU guys (Akapo Dami Francis, Oyewale Oyediran, Akinboyewa Richards, Shitu AbdulRahman,Obasa Adegoke, Nnanna Eze ) have been tremendous in shaping me to who I am today. Thanks</string>
+    <string name="about_thanks_impact_makers"> Ogunyemi Timileyin for the tremendous input with images and graphics,Shoaga Victor for feedback and advice on development, Otaru Babatunde, Makanju Dami Perfect, Adeyemo Daniel for the encouragement.
+      
+    </string>
+   
+   
+    <!-- Tuto Activity -->
+    <string name="tuto_default_title">Soon…</string>
+    <string name="tuto_title_page_0">Zillz</string>
+    <string name="tuto_title_page_1">In Game\nTargets</string>
+    <string name="tuto_title_page_2">In Game\nTargets</string>
+    <string name="tuto_title_page_3">In Game\nCombos</string>
+    <string name="tuto_title_page_4">In Game\nMoving</string>
+    <string name="tuto_title_page_5">In Game\nAmmunition</string>
+    <string name="tuto_title_page_6">In Game\nAmmunition</string>
+    <string name="tuto_title_page_7">Inventory\nCraft</string>
+    <string name="tuto_title_page_8">Menu\nPlay</string>
+    <string name="tuto_title_page_9">Menu\nProfile</string>
+    <string name="tuto_title_page_10">Menu\nLeaderboards</string>
+    <string name="tuto_title_page_11">Menu\nAchievements</string>
+    <string name="tuto_title_page_12">Ready To\nFight</string>
+    <string name="tuto_button_close">Close</string>
+
+    <!-- Tuto Default Fragment -->
+    <string name="tuto_default_fragment_content">Default Tuto Fragment</string>
+
+    <!-- Tuto Fragment Page Welcome -->
+    <string name="tuto_page_welcome_title">Welcome,</string>
+    <string name="tuto_page_welcome_subtitle">Bat General.</string>
+    <string name="tuto_page_welcome_content">Your mission is to seek, find and kill
+        the bats living around you.
+    </string>
+    <string name="tuto_page_welcome_additional_text">Swipe right-to-left to learn more.</string>
+
+    <!-- Tuto Fragment Page Play Button -->
+    <string name="tuto_page_play_button_content">Select your favorite mode and hunt the bats around you.</string>
+
+    <!--Tuto Fragment Page Profile Button -->
+    <string name="tuto_page_profile_button_content">Follow your progress and discover information about your enemy.</string>
+
+    <!-- Tuto Fragment Page Leaderboard Button -->
+    <string name="tuto_page_leaderboard_button_content">Compare your score with your friends’ and try to be the best
+       bat hunter in the World.
+    </string>
+
+    <!-- Tuto Fragment Page Achievement Button -->
+    <string name="tuto_page_achievement_button_content">Improve yourself as a bat hunter and keep track of your
+        progress.
+    </string>
+
+    <!-- Tuto Fragment Page Aim Tip -->
+    <string name="tuto_page_aim_tip_content">In order to target a bat accurately, try to picture your phone as a
+        gunsight. Move your arms, not only your hands.
+    </string>
+
+    <!-- Tuto Fragment Page Target -->
+    <string name="tuto_page_target_content">Your targets are Great Oau bats and siblings.</string>
+    <string name="tuto_page_target_bis_content">Line up one of them in your gunsight by moving your phone, then shoot by touching the
+        screen.
+    </string>
+
+    <!-- Tuto Fragment Page Ammo -->
+    <string name="tuto_page_ammo_content">Watch your ammunition on the bottom right of your screen, or you will run
+        out.
+    </string>
+    <string name="tuto_page_ammo_bis_content">Your ammunition replenishes with time.</string>
+
+    <!-- Tuto Fragment Page Ready To Fight -->
+    <string name="tuto_page_ready_to_fight_congratulation">Congratulations, you are ready to play.</string>
+    <string name="tuto_page_ready_to_fight_reaccess_tutorial">You can repeat this tutorial anytime from the main
+        menu.
+    </string>
+    <string name="tuto_page_ready_to_fight_gl_hf">Good Luck &amp; Have Fun.</string>
+
+    <!-- Tuto Fragment Page Combos -->
+    <string name="tuto_page_combo_content">Don’t miss your target, and complete combos to increase your score quicker.
+
+    </string>
+    <string name="tuto_page_combo_example">x4</string>
+
+    <!-- Tuto Fragment Page Inventory -->
+    <string name="tuto_page_inventory_craft_content">Craft powerful bonuses from your inventory.</string>
+
+    <!-- Profile Fragment -->
+    <string name="profile_title">Your Profile</string>
+    <string name="profile_level">Level %1$d</string>
+    <string name="profile_exp">Exp %1$d/%2$d</string>
+    <string name="profile_general_information">General Information</string>
+    <string name="profile_games_played">Games Played</string>
+    <string name="profile_targets_killed">Targets Killed</string>
+    <string name="profile_bullets_fired">Bullets Fired</string>
+    <string name="profile_accuracy">Accuracy</string>
+    <string name="profile_bestiary_title">Bestiary</string>
+    <string name="profile_bestiary_description">Find out about the bats you must track and kill.</string>
+
+    <string name="profile_weapons_title">Weapons</string>
+    <string name="profile_weapons_description">Chose your weapons wisely before starting your hunt.</string>
+    <string name="profile_inventory_title">Inventory</string>
+    <string name="profile_inventory_description">Manage your inventory and craft some useful bonuses.</string>
+    <string name="profile_missions_title">Missions</string>
+    <string name="profile_missions_description">Find new challenges and complete risky missions.</string>
+
+    <!-- Bestiary Fragment -->
+    <string name="bestiary_title">Bestiary</string>
+    <string name="bestiary_health">Health</string>
+    <string name="bestiary_point_value">Point</string>
+    <string name="bestiary_exp_value">Exp</string>
+    <string name="bestiary_easy_bat_title">Common Bat</string>
+    <string name="bestiary_bat_with_helmet_title">Reinforced Bat</string>
+    <string name="bestiary_baby_bat_title">Baby Bat</string>
+    <string name="bestiary_hidden_bat_title">Hidden Bat</string>
+    <string name="bestiary_king_bat_title">King of Bats</string>
+    <string name="bestiary_blond_bat_title">Blonde Bat</string>
+
+    <!-- Inventory Fragment -->
+    <string name="inventory_title">Inventory</string>
+    <string name="inventory_item_default_title">Item’s Title</string>
+    <string name="inventory_item_default_description">Item’s Description</string>
+    <plurals name="inventory_item_coin_title">
+        <item quantity="one">Old Coin</item>
+        <item quantity="other">Old Coins</item>
+    </plurals>
+    <string name="inventory_item_coin_description">This coin is so old that you have a very difficult time determining
+        whether it is actually made of gold. Since it’s not too heavy, you keep it in your bag regardless.
+    </string>
+    <plurals name="inventory_item_broken_helmet_horn_title">
+        <item quantity="one">Broken Helmet Horn</item>
+        <item quantity="other">Broken Helmet Horns</item>
+    </plurals>
+    <string name="inventory_item_broken_helmet_horn_description">A small piece of steel that came from the helmet of a
+        bat. It can be used to forge useful steel items.
+    </string>
+    <plurals name="inventory_item_baby_drool_title">
+        <item quantity="one">Baby Drool</item>
+        <item quantity="other">Baby Drools</item>
+    </plurals>
+    <string name="inventory_item_baby_drool_description">Why on the earth should you keep a baby drool in an FPS
+        inventory?!?
+    </string>
+    <plurals name="inventory_item_king_crown_title">
+        <item quantity="one">King’s Crown</item>
+        <item quantity="other">King’s Crowns</item>
+    </plurals>
+    <string name="inventory_item_king_crown_description">A beautiful and sought-after jewelry. It could definitely be melted down 
+        to extract a huge amount of gold.
+    </string>
+    <plurals name="inventory_item_steel_bullet_title">
+        <item quantity="one">Steel Bullet</item>
+        <item quantity="other">Steel Bullets</item>
+    </plurals>
+    <string name="inventory_item_steel_bullet_description">When you hold a steel bullet in your hand, you can feel its
+        power. Using steel bullets grants you +1 damage bonus.
+    </string>
+    <plurals name="inventory_item_gold_bullet_title">
+        <item quantity="one">Gold Bullet</item>
+        <item quantity="other">Gold Bullets</item>
+    </plurals>
+    <string name="inventory_item_gold_bullet_description">A bullet made of gold is incredibly deadly against bats.
+        Using gold bullets grants you +3 damage bonus.
+    </string>
+    <plurals name="inventory_item_one_shot_bullet_title">
+        <item quantity="one">“One-Shot” Bullet</item>
+        <item quantity="other">“One-Shot” Bullets</item>
+    </plurals>
+    <string name="inventory_item_one_shot_bullet_description">
+        A bullet that is so strong that it can kill any bat instantaneously. This kind of bullets is very expensive,
+        so handle it with great care. Using these bullets grants you +10 damage bonus.
+    </string>
+    <plurals name="inventory_item_bat_tear_title">
+        <item quantity="one">Bat Teardrop</item>
+        <item quantity="other">Bat Teardrops</item>
+    </plurals>
+    <string name="inventory_item_bat_tear_description">
+        A tiny drop of tear that probably came from a Mum bat who died trying to save her children. You can feel a
+        strange power emanating from this small drop.
+    </string>
+    <plurals name="inventory_item_speed_potion_title">
+        <item quantity="one">Speed Potion</item>
+        <item quantity="other">Speed Potions</item>
+    </plurals>
+    <string name="inventory_item_speed_potion_description">
+        This potion does not smell good at all, but if you are brave enough to drink it, you will reload your weapon
+        faster than ever. Reloading time -300.
+    </string>
+    <string name="inventory_item_can_t_be_dropped">Can’t be dropped</string>
+    <string name="inventory_item_can_t_be_crafted">Can’t be crafted</string>
+    <string name="inventory_item_quantity">Quantity</string>
+    <string name="inventory_item_dropped_by">Dropped By</string>
+    <string name="inventory_item_recipe">Recipe</string>
+    <string name="recipe_item_entry">%1$sx %2$s,</string>
+    <string name="dropped_by_entry">%1$s (%2$d%%),</string>
+
+    <!-- Craft Dialog Fragment -->
+    <string name="craft_dialog_fragment_not_enough_resources">Not enough resources, you need %1$s.</string>
+    <string name="craft_dialog_fragment_request">Use %1$s to craft 1x %2$s?</string>
+    <string name="craft_dialog_fragment_ok_response">Ok</string>
+    <string name="craft_dialog_fragment_yes_response">Yes</string>
+    <string name="craft_dialog_fragment_no_response">No</string>
+
+    <!-- Bonus -->
+    <string name="bonus_title">Equip a bonus</string>
+    <string name="bonus_effect">Effect</string>
+    <string name="bonus_quantity">Quantity Available</string>
+    <string name="bonus_damage_effect">Damage +%1$s</string>
+    <string name="bonus_speed_effect">Reloading time -%1$s</string>
+
+    <!-- In Game Tutorial -->
+    <string name="tuto_step_welcome">Welcome to the Zillz tutorial, touch the screen to continue.</string>
+    <string name="tuto_step_ui_welcome">We are exploring the game interface.</string>
+    <string name="tuto_step_crosshair">Your gunsight is in the middle of the screen.</string>
+    <string name="tuto_step_combo">Don’t miss any targets and add up combos!</string>
+    <string name="tuto_step_ammos">Mind your ammunition at the bottom right of the screen.</string>
+    <string name="tuto_step_ammos_2">Your weapon replenishes with time.</string>
+    <string name="tuto_step_score">Keep an eye on your score at the bottom left of the screen.</string>
+    <string name="tuto_step_serious_things">Let’s get down to business.</string>
+    <string name="tuto_step_target">Aim your gunsight at the bat by moving your phone…</string>
+    <string name="tuto_step_kill">…Then touch the screen anywhere to shoot.</string>
+    <string name="tuto_step_congratulation">Congratulations, you have just killed your first bat!</string>
+    <string name="tuto_step_target_2">Be careful, some bats are stronger…</string>
+    <string name="tuto_step_kill_2">…Shoot multiple times!</string>
+    <string name="tuto_step_congratulation_2">Tutorial completed. You are now prepared for your adventure!</string>
+    <string name="tuto_step_end">Tutorial completed!</string>
+
+    <!-- GameMode details -->
+    <string name="progression">Progress</string>
+
+    <!-- Military ranks -->
+    <string name="military_ranks">Ranks</string>
+    <string name="deserter">Bat Finder</string>
+    <string name="soldier">Bat Rookie</string>
+    <string name="corporal">Bat Locker</string>
+    <string name="sergeant">Bat Hunter</string>
+    <string name="admiral">Bat Legend</string>
+
+    <string-array name="ranks_array_full">
+        <item>@string/deserter</item>
+        <item>@string/soldier</item>
+        <item>@string/corporal</item>
+        <item>@string/sergeant</item>
+        <item>@string/admiral</item>
+    </string-array>
+
+    <string-array name="ranks_array_letter">
+        <item>E</item>
+        <item>D</item>
+        <item>C</item>
+        <item>B</item>
+        <item>A</item>
+    </string-array>
+
+    <!-- Death To The King -->
+    <string name="game_mode_death_to_the_king_instruction">As soon as you are ready, touch the screen to summon the king and his sidekicks!</string>
+
+    <!-- Memorize -->
+    <string name="game_mode_memorize_instruction">Memorise\n%1$s</string>
+    <string name="game_mode_memorize_wave">Wave %1$d</string>
+
+    <string name="toast_compatibility_mode">Compatibility Mode</string>
+</resources>

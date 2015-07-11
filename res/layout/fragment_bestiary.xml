@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/default_padding" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/default_vertical_margin"
+        android:text="@string/bestiary_title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/holo_dark_green" />
+
+    <GridView
+        android:id="@+id/bestiary_grid_view"
+        android:layout_width="wrap_content"
+        android:layout_height="413dp"
+        android:columnWidth="@dimen/bestiary_row_entry_width"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/grid_view_spacing"
+        android:numColumns="auto_fit"
+        android:padding="@dimen/half_padding"
+        android:scrollbarStyle="outsideInset"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/grid_view_spacing" />
+
+   <!-- <com.google.android.gms.ads.AdView
+        android:id="@+id/adView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="a152c991568439f"
+       >
+    </com.google.android.gms.ads.AdView>
+    --> 
+</LinearLayout>

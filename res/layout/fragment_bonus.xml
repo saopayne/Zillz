@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="@dimen/default_padding">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/holo_dark_green"
+        android:text="@string/bonus_title"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/default_vertical_margin"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- <com.google.android.gms.ads.AdView
+         android:id="@+id/adView2"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         ads:adSize="BANNER"
+         ads:adUnitId="a152c991568439f"
+          >
+     </com.google.android.gms.ads.AdView> --> 
+
+     <GridView
+         android:id="@+id/bonus_grid_view"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/adView2"
+         android:layout_alignRight="@+id/adView2"
+         android:columnWidth="@dimen/bonus_row_entry_width"
+         android:gravity="center"
+         android:horizontalSpacing="@dimen/grid_view_spacing"
+         android:numColumns="auto_fit"
+         android:layout_marginBottom="120dp"
+         android:stretchMode="columnWidth"
+         android:verticalSpacing="@dimen/grid_view_spacing" >
+
+     </GridView>
+
+     <Button
+         android:id="@+id/bonus_start"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/textView"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="63dp"
+         android:background="@drawable/button_play"
+         android:paddingBottom="12dp"
+         android:paddingTop="12dp"
+         android:text="@string/home_play"
+         android:textColor="@color/white"
+         android:textSize="@dimen/home_text_size" />
+
+</RelativeLayout>
